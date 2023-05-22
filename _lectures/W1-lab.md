@@ -1,7 +1,7 @@
 ---
 type: lab
 date: 2023-05-24T11:15:00+2:00
-title: "Machine learning in Python"
+title: "Machine learning in Python (1/2)"
 tldr: "Scientific computing in Python and introduction to scikit-learn"
 thumbnail: /_images/jupyter.png
 hide_from_announcments: false

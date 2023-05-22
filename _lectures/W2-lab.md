@@ -1,7 +1,7 @@
 ---
 type: lab
 date: 2023-05-25T11:15:00+2:00
-title: "Dimension reduction"
+title: "Machine Learning in Python (2/2)"
 tldr: "Handwritten characters: visualization, dimension reduction"
 thumbnail: /_images/jupyter.png
 hide_from_announcments: true
