@@ -1,0 +1,18 @@
+instructors:
+  - name: Stephan Clémençon
+    profile_pic: /_images/pp/stephan.jpg
+    webpage: https://perso.telecom-paristech.fr/clemenco/
+
+teaching_assistants:
+  - name: Hicham Janati
+    profile_pic: /_images/pp/hicham.png
+    webpage: http://hichamjanati.github.io/
+
+  - name: Mathieu Labeau
+    profile_pic: /_images/pp/mathieu.jpeg
+    webpage: https://www.telecom-paris.fr/matthieu-labeau
+
+  - name: Guillaume Staerman
+    profile_pic: /_images/pp/guillaume.jpeg
+    webpage: https://guillaumestaermanml.github.io/
+

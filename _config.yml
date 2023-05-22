@@ -1,0 +1,59 @@
+# Site settings
+course_name: Artificial Intelligence
+course_description: "There are many tasks that humans 
+can do easily and almost unconsciously but that have proven 
+extremely difficult to program on a computer. Artificial Intelligence (AI) aims at 
+developing computer systems that can carry out some of these tasks. This body of knowledge and techniques 
+at the interface between mathematics and computer science has made constant progress in recent decades and will be at the origin of many technological innovations with a strong scientific, societal or economic impact. Computer vision or the automatic recognition of speech or handwriting are successful applications that are the most frequently mentioned to illustrate the efficiency of AI solutions. These successes are being presented as harbingers of a revolution that will spare no field of human activity. Expectations are high. AI is supposed to allow for the development of a personalized medicine that will adapt a treatment to the patient’s genetic traits. It is to be used to design systems of predictive maintenance for complex infrastructures, such as electricity grids. It would help make aircraft with systems for the early detection of “weak” signals that announce breakdowns, and would thus serve to plan the replacement of components before their probable failure. The vehicles using AI would be safer and fully autonomous, and be in service longer. This is even more so with machine learning, the branch of AI that seeks to develop techniques for automatically analyzing masses of data, usually for predictive purposes. Motivated at the origin by problems related to the recognition of shapes and stimulated by the cognitive sciences, machine learning does not serve just to process data and adjust the parameters of a more or less rigid, predefined model. It is used to design algorithms that “learn” automatically, from examples, which model in an immense catalog of models will be the most efficient. The efficiency of learning algorithms (e.g., “neural networks”, “support vector machines” or “random forests”) and the development of optimized software for implementing them have popularized the use of AI over the past two decades. Machine learning draws from several fields of applied mathematics : in particular and of course, from Probability, since it provides the right language for describing data variability and formulating predictive problems, Statistics, Optimization and Image/Signal Processing among others. AI is a very vast interdisciplinary domain and the problems it can be used to tackle are extremely diverse. Undeniably, they cannot be covered through a single course... The main purpose of this class is to familiarize you with some of the fundamental mathematical and algorithmic concepts used to develop intelligent systems. We will focus on several aspects of AI : machine learning, the main paradigm of AI research now, including reinforcement learning (i.e. situations where the machine/agent interacts with its environment) and some of its popular applications such as computer vision, biometrics, recommending systems and natural language processing (NLP), certain crucial notions of symbolic AI as well (e.g. search, logic and automated reasoning) to design knowledge-based systems. We will underline the importance of representations (of data/knowledge) in AI approaches and will explain that the level of “delegation” to be granted to “smart systems” in the near future will heavily depend on how research in AI methodology will reply to questions of ethics (the processing of personal data while respecting privacy, fairness) and reliability/robustness."
+
+course_objectives: The purpose of this class is to familiarize you with certain crucial notions of AI through the presentation of some major problems (e.g. Pattern recognition, Q-learning, unsupervised learning, collaborative filtering) and popular use cases (e.g. facial recognition, automated medical diagnosis, fraud detection, recommender systems, virtual assistants, the analytics of opinions or feelings). Although focus will be on practice definitely, a certain amount of formalism cannot be avoided however, in particular to gain insight into concepts such as complexity, model under/overfitting, generalization capacity and to describe the problems and the methods in AI. The knowledge of basics in Probability/Statistics, Linear Algebra and Mathematical Analysis is advisable but not mandatory. Regarding the implementation of AI methods, the Python language will be used. However, this is not a coding class and softwares such as scikit-learn will be used extensively.
+course_prerequisites: "V22.0201 (Computer Systems Design I) and V22.0301 (Basic Algorithms)"
+
+course_semester: "Summer 2023"
+
+baseurl: "/NYU-AI-Summer23" # the subpath of your site, e.g. /blog/
+url: "http://aiteachings.github.io/" # the base hostname & protocol for your site
+
+schoolname: "NYU Paris"
+schoolurl: "https://www.nyu.edu/paris.html"
+twitter_username: NYUParis 
+
+address: |
+    NYU Paris
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: UA-XXXXXXXX-X
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+timezone: Europe/Paris
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
