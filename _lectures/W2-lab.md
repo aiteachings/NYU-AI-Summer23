@@ -1,6 +1,6 @@
 ---
 type: lab
-date: 2023-05-26T11:15:00+2:00
+date: 2023-05-25T11:15:00+2:00
 title: "Dimension reduction"
 tldr: "Handwritten characters: visualization, dimension reduction"
 thumbnail: /_images/jupyter.png
