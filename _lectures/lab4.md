@@ -7,7 +7,7 @@ thumbnail: /_images/jupyter.png
 hide_from_announcments: true
 
 links: 
-    - url: /static_files/code/assignment_1.ipynb
+    - url: /static_files/code/Assignment_1.ipynb
       name: Model complexity - Over/under-fitting
 ---
 **Suggested readings & references:**
