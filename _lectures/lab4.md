@@ -9,5 +9,9 @@ hide_from_announcments: true
 links: 
     - url: /static_files/code/Assignment_1.ipynb
       name: Model complexity - Over/under-fitting
+    - url: /static_files/data/people_images.npy
+      name: People_images_data
+    - url: /static_files/data/people_targets.npy
+      name: People_targets_data
 ---
 **Suggested readings & references:**
