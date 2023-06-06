@@ -9,5 +9,4 @@ links:
       name: slides
 ---
 **Suggested readings & references:**
-- [pdf](https://intelligence.org/files/EthicsofAI.pdf) Nick Bostrom &
-Eliezer Yudkowsky (2020)  _The Ethics of Artificial Intelligence_
+- [pdf](https://statisticalsupportandresearch.files.wordpress.com/2017/05/vladimir-vapnik-the-nature-of-statistical-learning-springer-2010.pdf) Vapnik, V. (1998)  _The Nature of Statistical Learning Theory_

@@ -1,8 +1,8 @@
 ---
 type: lecture
-date: 2023-06-06T11:15:00+2:00
-title: "Pattern recognition (2/3)"
-tldr: "KNN, CART and tree based models."
+date: 2023-06-02T11:15:00+2:00
+title: "Pattern recognition (3/3)"
+tldr: "Ensemble learning, neural nets"
 thumbnail: /_images/lecture.jpeg
 links: 
     - url: /static_files/slides/slides3.pdf
