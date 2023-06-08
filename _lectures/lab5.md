@@ -9,7 +9,7 @@ hide_from_announcments: true
 links: 
     - url: /static_files/code/ML_for_music.ipynb
       name: ML for music
-    - url: https://drive.google.com/open?id=1-MwPfOvutKQbiFL5RmIPsTeLKh0T3r54&authuser=hicham.janati100%40gmail.com&usp=drive_fs
+    - url: https://www.dropbox.com/sh/onzummabow8u8y6/AAAF3cGsy4Al9dJHLBzmTnIBa?dl=0
       name: music_drive
 
 ---
