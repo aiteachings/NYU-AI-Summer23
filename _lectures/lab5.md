@@ -10,7 +10,7 @@ links:
     - url: /static_files/code/ML_for_music.ipynb
       name: ML for music
     - url: https://www.dropbox.com/sh/onzummabow8u8y6/AAAF3cGsy4Al9dJHLBzmTnIBa?dl=0
-      name: music_drive
+      name: music_dropbox
 
 ---
 **Suggested readings & references:**
